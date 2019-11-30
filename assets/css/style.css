@@ -1,20 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
 .header {
     width: 960px;
     margin: 0 auto 0 auto;
 }
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+h1 {
     background: #4aaaa5;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: fit-content;
     float: left;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 2px;
     font-size: 40px;
 }
 
@@ -29,18 +33,25 @@ header {
 
 .background{
     clear: both; 
-    height: 650px;
-    width: 1120px;
+    height: 720px;
+    width: 100%;
     margin: 0 auto;
-  background-image: url(board.png);
+    background: url("../images/waves.png");
+    background-size: cover
 }
 
 .wrapper {
    width: 960px;
+   padding-top: 30px;
+   padding-bottom: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
    margin: 0 auto;
    border-style: solid;
-position: relative; top: 40px;
-background: white;
+   position: relative; top: 40px;
+   background: white;
+   position: relative;
+top: 40px;
 }
 .wrapper::after{
     content: "";
@@ -51,8 +62,8 @@ background: white;
 h2{
    color: #4aaaa5;
    font-size: 40px;
-   margin-left: 20px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 0px;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 
@@ -61,6 +72,11 @@ img{
     margin: 15px;
     margin-left: 20px;
 }
+
+<p>{
+    float: left;
+}
+
 
 footer{
     clear: both;
@@ -72,8 +88,7 @@ footer{
     font-size: small;
     margin: 0 auto;
     padding: 20px;
-   text-align: center;
-    width: 1080px;
-      
+    text-align: center;
+    width: auto;  
     
   }
